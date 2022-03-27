@@ -107,6 +107,9 @@ function Square(props) {
 
       return (
         <div className="game">
+          <div className="name">
+            <p>Tuan Dang</p>
+          </div>
           <div className="game-board">
             <Board 
               squares = {current.squares}
